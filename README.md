@@ -1,30 +1,23 @@
-# getin_food_assignment
+# Flutter Assignment
 
-A new Flutter project.
+Write a small app with 2 screens.
 
-## Getting Started
+## Screen 1
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+Display an infinity list with lazy loading for displaying food items.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The list item should display the dish name.
 
-## Assets
+When item is tapped, open screen 2 for the item.
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+## Screen 2
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+Display the dish name, description and ingredient.
 
-## Localization
+Allow user to edit the dish name and reflect any changes when going back to screen 1.
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
+## Instructions
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+You must use the [slim package](https://pub.dev/packages/slim) from pub.dev for state management and rest api requests.
+
+For food data use following [api](https://random-data-api.com/api/food/random_food?size=30).
